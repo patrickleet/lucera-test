@@ -1,0 +1,40 @@
+{
+  "name": "Data-Test",
+  "description": "Built with theStack!",
+  "version": "0.0.1",
+  "homepage": "https://someuser.github.io/Data-Test",
+  "author": {
+    "name": "A Person",
+    "url": "https://github.com/someuser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:someuser/Data-Test.git"
+  },
+  "keywords": [
+    "generator-thestack"
+  ],
+  "bugs": {
+    "url": "https://github.com/someuser/Data-Test/issues"
+  },
+  "main": "./server/server",
+  "dependencies": {
+    "express": "3.x",
+    "csv": "~0.3.6",
+    "csvtojson": "~0.1.4"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-less": "~0.6.4",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-mocha-test": "~0.6.2",
+    "grunt-nodemon": "0.0.9",
+    "grunt-shell": "~0.3.1",
+    "mongoose": "~3.6.19",
+    "nodemon": "^1.10.2",
+    "superagent": "~0.15.4",
+    "uglify-js": "~2.2.5"
+  }
+}
